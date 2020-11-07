@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396461506875",
+    "firebase_url": "https://dairynotes-a5744.firebaseio.com",
+    "project_id": "dairynotes-a5744",
+    "storage_bucket": "dairynotes-a5744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396461506875:android:5d0c55cbfdf9b7fc38771e",
+        "android_client_info": {
+          "package_name": "com.example.dairynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396461506875-ll11fhfop69j4m0vitieii17968ive8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyx1YtkLc3MCOdkPQxwgmOaztyvpNFVOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396461506875-ll11fhfop69j4m0vitieii17968ive8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

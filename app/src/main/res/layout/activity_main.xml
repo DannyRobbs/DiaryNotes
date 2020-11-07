@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--<androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_person"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity = "center"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/profileicon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="AppName"
+                android:id="@+id/title_home"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/profileicon"
+                android:layout_marginLeft="20dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_note"
+                android:layout_gravity = "center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/noteicon"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_search"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity = "center"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@id/noteicon"
+                android:id="@+id/searchicon"
+                />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>-->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:layout_height="match_parent">
+    <fragment
+
+        android:name="com.example.dairynotes.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/recycler_note"/>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_book"
+            style="@style/Widget.Design.FloatingActionButton"
+            android:layout_alignParentRight="true"
+            app:fabSize="normal"
+            android:layout_margin="30dp"
+            android:layout_gravity="bottom|right"
+            android:backgroundTint="#eeeeee"
+            android:background="#eeeeee"
+            app:borderWidth="0dp"
+            android:elevation="2dp"
+            app:rippleColor="@color/black"/>
+
+</LinearLayout>
